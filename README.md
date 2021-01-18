@@ -13,4 +13,4 @@ Setup Session:
 4. Enter your default region for creating AWS resources
 Above process will create a default profile for aws cli. All the aws commands will be executed with the same level of access as given to the User
 
-Note: For learning Purpose Kindly use the master account of AWS account.
+Note: For learning Purpose Kindly create an IAM user with same level of access as of root user of AWS account.
