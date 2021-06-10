@@ -8,8 +8,7 @@ asgname = open("C:\\Users\\vikash.kumar67\\Desktop\\Python_Scripting\\scripting\
 
 for i in asgname:
     suspend=asg.resume_processes(AutoScalingGroupName=i,
-                                 #ScalingProcesses=['Launch','Terminate','AddToLoadBalalncer','AlarmNotification','AZRebalance','HealthCheck','InstanceRefresh','ReplaceUnhealthy',
-                                #'ScheduledActions'
+                                 ScalingProcesses=['Launch','Terminate','AddToLoadBalalncer','AlarmNotification','AZRebalance','HealthCheck','InstanceRefresh','ReplaceUnhealthy','ScheduledActions']
                                  )
     print(' Autoscaling Process Resumed for : ' + i)
 
